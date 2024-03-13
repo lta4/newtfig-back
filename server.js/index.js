@@ -1,5 +1,6 @@
 require("dotenv").config();
 const { PORT, NODE_ENV = "development" } = process.env;
+
 const express = require("express");
 const serveIndex = require("serve-index");
 const cors = require("cors");
